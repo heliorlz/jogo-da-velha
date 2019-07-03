@@ -7,12 +7,11 @@
   padding: 20px 70px;
 }
 
-.App-header .about {
+.App-header .action {
   text-decoration: none;
   text-transform: uppercase;
 
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: bold;
+  font: bold 14px Montserrat, sans-serif;
+
   color: #707070;
 }
