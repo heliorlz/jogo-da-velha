@@ -1,16 +1,9 @@
 import React from "react";
-import "./App.css";
+
+import Sobre from "./objects";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <a className="action" href="#to-do">
-          Sobre
-        </a>
-      </header>
-    </div>
-  );
+  return <Sobre />;
 }
 
 export default App;
