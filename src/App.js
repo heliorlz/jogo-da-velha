@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sobre from "./objects";
+import Sobre from "./objects/Sobre/index";
 
 function App() {
   return <Sobre />;
