@@ -1,0 +1,6 @@
+/* webpack automatiza o normalize dentro de nosso projeto */
+@import-normalize;
+
+body {
+  margin: 0;
+}
