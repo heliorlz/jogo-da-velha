@@ -1,0 +1,15 @@
+.menu-hamburguer {
+  margin: 1rem;
+  width: 28px;
+}
+
+.menu-hamburguer:after,
+.menu-hamburguer:before,
+.menu-hamburguer > div {
+  background-color: var(--color-fourth);
+  border-radius: 3px;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 4px 0;
+}
