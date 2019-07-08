@@ -1,15 +1,11 @@
 import React from "react";
 
-import Sobre from "./objects/Sobre/index";
-import LogoCollabCode from "./objects/LogoCollabCode/index";
-import MenuHamburguer from "./objects/MenuHamburguer";
+import HeaderWrapper from "./components/HeaderWrapper";
 
 function App() {
   return (
     <>
-      <LogoCollabCode />
-      <Sobre />
-      <MenuHamburguer />
+      <HeaderWrapper />
     </>
   );
 }
