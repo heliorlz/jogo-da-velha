@@ -1,9 +1,9 @@
 import React from "react";
 
-import logo from "./logo.png";
+import Logo from "./../../img/logo.png";
 
 const LogoCollabCode = () => {
-  return <img className="logo-collabcode" src={logo} alt="Logo Collab Code" />;
+  return <img className="logo-collabcode" src={Logo} alt="Logo Collab Code" />;
 };
 
 export default LogoCollabCode;
