@@ -3,5 +3,9 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 20px 35px;
+  padding: 20px 34px;
+}
+
+.header-wrapper > .nav-wrapper {
+  width: 87px;
 }

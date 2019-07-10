@@ -1,7 +1,9 @@
 .nav-wrapper {
-  width: 87px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-wrapper > .menu-hamburguer {
+  width: 25px;
 }
