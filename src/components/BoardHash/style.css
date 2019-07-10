@@ -2,8 +2,12 @@
   width: 290px;
   height: 290px;
 
+  box-sizing: border-box;
+
   background-color: var(--color-zero);
 
   border-radius: 5px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+
+  padding: 15px;
 }
