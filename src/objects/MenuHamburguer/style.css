@@ -1,14 +1,22 @@
 .menu-hamburguer {
-  width: 25px;
+  display: block;
+  text-indent: -9999px;
 }
 
-.menu-hamburguer:after,
-.menu-hamburguer:before,
-.menu-hamburguer > div {
+.menu-hamburguer::after,
+.menu-hamburguer::before,
+.menu-hamburguer > .center {
+  content: "";
+
+  display: block;
+  width: 25px;
+  height: 3px;
+
   background-color: var(--color-fourth);
   border-radius: 3px;
-  content: "";
-  display: block;
-  height: 3px;
-  margin: 4px 0;
+}
+
+.menu-hamburguer::before,
+.menu-hamburguer > .center {
+  margin-bottom: 3px;
 }
