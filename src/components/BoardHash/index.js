@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./style.css";
-import Mark from "../../objects/Mark";
+import BoardSquare from "../../objects/BoardSquare";
 
 const BoardHash = () => {
   return (
     <section className="board-hash">
-      <Mark />
+      <BoardSquare />
     </section>
   );
 };

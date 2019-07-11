@@ -10,4 +10,7 @@
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 
   padding: 15px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
