@@ -3,12 +3,12 @@ import React from "react";
 import "./style.css";
 import BoardSquare from "../../objects/BoardSquare";
 
-const BoardHash = () => {
+const Card = () => {
   return (
-    <section className="board-hash">
+    <article className="card">
       <BoardSquare />
-    </section>
+    </article>
   );
 };
 
-export default BoardHash;
+export default Card;

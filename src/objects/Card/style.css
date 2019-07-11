@@ -1,4 +1,4 @@
-.board-hash {
+.card {
   width: 290px;
   height: 290px;
 
@@ -6,8 +6,8 @@
 
   background-color: var(--color-zero);
 
-  border-radius: 5px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+  border-radius: var(--spacing-radius);
+  box-shadow: 0 3px 6px 0 var(--color-negative-light);
 
   padding: 15px;
 
