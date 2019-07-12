@@ -1,37 +1,37 @@
 import React from "react";
 
 import "./style.css";
-import Mark from "../Mark";
+import Player from "../Player";
 
 const BoardSquare = () => {
   return (
     <>
       <div className="boardsquare first">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare second">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare third">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare fourth">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare fifth">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare sixth">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare seventh">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare eighth">
-        <Mark />
+        <Player />
       </div>
       <div className="boardsquare ninth">
-        <Mark />
+        <Player />
       </div>
     </>
   );
