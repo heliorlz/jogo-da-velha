@@ -1,7 +1,4 @@
 .card {
-  width: 290px;
-  height: 290px;
-
   box-sizing: border-box;
 
   background-color: var(--color-zero);
