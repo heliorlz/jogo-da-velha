@@ -1,0 +1,34 @@
+.event-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-left: -16px;
+}
+
+.event-wrapper input[type="checkbox"] {
+  opacity: 0;
+}
+
+.event-wrapper label {
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--color-fourth);
+
+  display: flex;
+  align-items: center;
+}
+
+.event-wrapper label::before {
+  content: "";
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+
+  margin-right: 6px;
+
+  border-radius: var(--spacing-radius);
+  border: solid 3px var(--color-fourth);
+}

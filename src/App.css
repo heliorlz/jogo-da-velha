@@ -10,3 +10,7 @@
 
   margin: 0 auto;
 }
+
+.app > .event-wrapper {
+  margin-top: 40px;
+}
