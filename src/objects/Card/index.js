@@ -1,14 +1,10 @@
 import React from "react";
 
 import "./style.css";
-import BoardSquare from "../../objects/BoardSquare";
 
-const Card = () => {
-  return (
-    <article className="card">
-      <BoardSquare />
-    </article>
-  );
+const Card = ({ children }) => {
+  // recebendo como parametro children equivalente ao player
+  return <article className="card">{children}</article>;
 };
 
 export default Card;

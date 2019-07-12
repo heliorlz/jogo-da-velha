@@ -1,13 +1,13 @@
 import React from "react";
 
-import Card from "./objects/Card";
 import HeaderWrapper from "./components/HeaderWrapper";
+import Hashtag from "./components/Hashtag";
 
 function App() {
   return (
     <>
       <HeaderWrapper />
-      <Card />
+      <Hashtag />
     </>
   );
 }
