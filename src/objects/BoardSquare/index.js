@@ -7,31 +7,32 @@ const BoardSquare = () => {
   return (
     <>
       <div className="boardsquare first">
-        <Player />
+        {/* passar como parametro, qual o jogador que sera exibido no momento do export */}
+        <Player player="o" />
       </div>
       <div className="boardsquare second">
-        <Player />
+        <Player player="x" />
       </div>
       <div className="boardsquare third">
-        <Player />
+        <Player player="o" />
       </div>
       <div className="boardsquare fourth">
-        <Player />
+        <Player player="x" />
       </div>
       <div className="boardsquare fifth">
-        <Player />
+        <Player player="x" />
       </div>
       <div className="boardsquare sixth">
-        <Player />
+        <Player player="o" />
       </div>
       <div className="boardsquare seventh">
-        <Player />
+        <Player player="x" />
       </div>
       <div className="boardsquare eighth">
-        <Player />
+        <Player player="o" />
       </div>
       <div className="boardsquare ninth">
-        <Player />
+        <Player player="x" />
       </div>
     </>
   );
