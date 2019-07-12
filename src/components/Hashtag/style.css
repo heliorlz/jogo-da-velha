@@ -1,6 +1,23 @@
+.card {
+  padding: 15px;
+}
+
 .hashtag {
   height: 100%;
 
+  box-sizing: border-box;
+
+  background-color: var(--color-third);
+
   display: grid;
-  grid-template: repeat(3, 33.333%) / repeat(3, 33.333%);
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 3px;
+}
+
+.hashtag > .item {
+  background-color: var(--color-zero);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
